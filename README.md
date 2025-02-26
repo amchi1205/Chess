@@ -6,7 +6,9 @@ If a player's king is captured, the game ends, and that player loses.
 
 Locations on the board will be specified using "algebraic notation", with columns labeled a-h and rows labeled 1-8, as shown in this diagram:
 
-board
+
+![board](https://github.com/user-attachments/assets/4b10317e-b9ca-41c9-869c-4ef71ddddd21)
+
 
 Special rules for this variant of chess:
 
