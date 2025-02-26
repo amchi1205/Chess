@@ -22,8 +22,8 @@ The falcon and hunter start the game off the board and out of play (see diagram)
 
 ChessVar class includes the following:
 
-An init method that initializes any data members
-A method called get_game_state that just returns 'UNFINISHED', 'WHITE_WON', 'BLACK_WON'.
+	An init method that initializes any data members
+	A method called get_game_state that just returns 'UNFINISHED', 'WHITE_WON', 'BLACK_WON'.
 A method called make_move that takes two parameters - strings that represent the square moved from and the square moved to. For example, make_move('b2', 'b4'). If the square being moved from does not contain a piece belonging to the player whose turn it is, or if the indicated move is not legal, or if the game has already been won, then it should just return False. Otherwise it should make the indicated move, remove any captured piece, update the game state if necessary, update whose turn it is, and return True.
 A method called enter_fairy_piece that takes two parameters - strings that represent the type of the piece (white falcon 'F', white hunter 'H', black falcon 'f', black hunter 'h') and the square it will enter. For example, enter_fairy_piece ('H', 'c1'). If the fairy piece is not allowed to enter this position at this turn for any reason, it should just return False. Otherwise it should enter the board at that position, update whose turn it is, and return True.
 Here's a very simple example of how the class could be used:
